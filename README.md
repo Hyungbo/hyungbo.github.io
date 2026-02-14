@@ -1,27 +1,41 @@
-# Minimal Mistakes remote theme starter
+# Hyungbo Shim - Academic Website
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+Personal academic website built with Jekyll for GitHub Pages.
 
-Contains basic configuration to get you a site with:
+## Pages
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+- **About** (Main page) - Biography and credentials
+- **Publication** - Research publications
+- **Invited Talks** - Speaking engagements
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+## Setup
 
----
+1. Install Jekyll:
+   ```bash
+   gem install bundler jekyll
+   ```
 
-## Troubleshooting
+2. Install dependencies:
+   ```bash
+   bundle install
+   ```
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+3. Run locally:
+   ```bash
+   bundle exec jekyll serve
+   ```
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+4. Visit `http://localhost:4000`
+
+## Deployment to GitHub Pages
+
+1. Create a repository named `yourusername.github.io`
+2. Push this code to the repository
+3. Enable GitHub Pages in repository settings
+4. Your site will be available at `https://yourusername.github.io`
+
+## Customization
+
+- Edit `_config.yml` to change site title and URL
+- Modify `assets/css/style.css` for styling
+- Update content in `index.md`, `publication.md`, and `invited-talks.md`

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="{{ '/' | relative_url }}">About</a>
+            <a href="{{ '/publication' | relative_url }}">Publication</a>
+            <a href="{{ '/invited-talks' | relative_url }}">Invited Talks</a>
+        </nav>
+        <h1>{{ site.title }}</h1>
+        <p>{{ site.description }}</p>
+    </header>
+    
+    <main>
+        <article>
+            {% if page.title %}
+            <h1>{{ page.title }}</h1>
+            {% endif %}
+            {{ content }}
+        </article>
+    </main>
+    
+    <footer>
+        <p>&copy; {{ 'now' | date: "%Y" }} Hyungbo Shim</p>
+    </footer>
+</body>
+</html>
