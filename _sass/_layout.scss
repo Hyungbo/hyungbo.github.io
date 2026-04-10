@@ -37,6 +37,7 @@ body.sticky-bottom-footer {
 .profile {
   img {
     width: 100%;
+    max-width: 200px;
   }
 }
 
@@ -50,6 +51,86 @@ body.sticky-bottom-footer {
 
 // Publications layout is defined in _includes/bib_search.liquid
 // Uses jekyll-scholar for BibTeX parsing and Bootstrap cards for display
+
+// ── View toggle buttons (By Year / By Topic) ──────────────────────────────
+.pub-view-toggle {
+  display: flex;
+  gap: 0;
+  margin-bottom: 1.5rem;
+}
+
+.pub-toggle-btn {
+  padding: 0.4rem 1.1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid var(--global-divider-color);
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  transition: background 0.15s, color 0.15s;
+
+  &:first-child {
+    border-radius: 4px 0 0 4px;
+  }
+  &:last-child {
+    border-radius: 0 4px 4px 0;
+  }
+  &.active {
+    background: var(--global-theme-color);
+    color: #fff;
+    border-color: var(--global-theme-color);
+  }
+  &:hover:not(.active) {
+    background: var(--global-hover-color);
+  }
+}
+
+// ── Topic section headings ─────────────────────────────────────────────────
+h2.pub-topic-heading {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  color: var(--global-text-color);
+}
+
+// ── Topic TOC (table of contents) ─────────────────────────────────────────
+#pub-topic-toc {
+  margin-bottom: 2rem;
+  padding: 0.8rem 1.2rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  background: var(--global-bg-color);
+
+  p.toc-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--global-text-color-light, #888);
+    margin-bottom: 0.5rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 1.2rem;
+  }
+
+  li a {
+    font-size: 0.9rem;
+    color: var(--global-theme-color);
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+  }
+}
+
+.topic-section {
+  margin-bottom: 1rem;
+}
 
 /*****************************************************************************
 * Projects
