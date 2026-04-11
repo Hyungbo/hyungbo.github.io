@@ -9,3 +9,22 @@
 # "TAC":
 #   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=9
 #   color: "#00369f"
+
+
+"book chapter":
+  color: "#9a84a3"
+
+"journal":
+  color: "#6f92b8"
+
+"conference":
+  color: "#76a87c"
+
+"thesis":
+  color: "#c97d7d"
+
+"tech report":
+  color: "#d39a6a"
+
+"under review":
+  color: "#9b8f7a"
