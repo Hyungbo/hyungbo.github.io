@@ -1,0 +1,5 @@
+# 배포 시에만 적용되는 설정 (_config.yml의 항목을 override함)
+# GitHub Actions의 빌드 명령: bundle exec jekyll build --config _config.yml,_config_production.yml
+
+imagemagick:
+  enabled: true   # GitHub Actions 환경에는 ImageMagick이 설치되므로 활성화

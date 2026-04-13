@@ -11,14 +11,12 @@ group :jekyll_plugins do
     gem 'jekyll-feed'
     gem 'jekyll-imagemagick'
     gem 'jekyll-link-attributes'
-    gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
     gem 'jekyll-regex-replace'
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-socials'
     gem 'jekyll-tabs'
-    gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
     gem 'jekyll-toc'
 end
 
@@ -28,7 +26,7 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
     gem 'observer'       # used by jekyll-scholar
-    # gem 'terser'         # used by jekyll-terser
+    gem 'wdm', '>= 0.1.0', platforms: [:mingw, :x64_mingw, :mswin]  # Windows 파일 감지 효율화
     # gem 'unicode_utils' -- should be already installed by jekyll
     # gem 'webrick' -- should be already installed by jekyll
 end
