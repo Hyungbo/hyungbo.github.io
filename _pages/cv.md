@@ -11,17 +11,17 @@ nav_order: 3
 
 ## Education and Career
 
-- B.S. in Electrical Engineering, [Seoul National Univ.](http://www.snu.ac.kr), 1989 – 1993
+- B.S. in Electrical Engineering, Seoul National University, 1993
 
-- M.S. in Electrical Engineering, [Seoul National Univ.](http://www.snu.ac.kr), 1993 – 1995
+- M.S. in Electrical Engineering, Seoul National University, 1995
 
-- Ph.D. in Electrical Engineering, [Seoul National Univ.](http://www.snu.ac.kr), 1995 – 2000
+- Ph.D. in Electrical Engineering, Seoul National University, 2000
 
-- Post-doctoral researcher, CCEC, [Univ. of California, Santa Barbara](http://www.ucsb.edu), 2000 – 2001
+- Post-doctoral researcher, CCEC, University of California, Santa Barbara, 2000 – 2001
 
-- Assist. professor, ECE Division, [Hanyang Univ.](http://www.hanyang.ac.kr), 2002 – 2003
+- Assistant professor, Electrical and Computer Engineering Division, Hanyang University, 2002 – 2003
 
-- Assist./Assoc./Professor, Dept. of Elec. and Comp. Eng., [Seoul National Univ.](http://www.snu.ac.kr), 2003 – current
+- Assist./Assoc./Professor, Department of Electrical and Computer Engineering, Seoul National University, 2003 – current
 
 - Visiting researcher, [Coordinated Science Laboratory](http://csl.illinois.edu/), [Univ. of Illinois, Urbana-Champaign](http://illinois.edu/), 2010 - 2011
 
