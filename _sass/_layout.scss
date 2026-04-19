@@ -87,11 +87,18 @@ body.sticky-bottom-footer {
 
 // ── Topic section headings ─────────────────────────────────────────────────
 h2.pub-topic-heading {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin-top: 2rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
   margin-bottom: 0.5rem;
-  color: var(--global-text-color);
+  color: var(--global-theme-color);
+  border-bottom: 2px solid var(--global-theme-color);
+  padding-bottom: 0.3rem;
+}
+
+html[data-theme="dark"] h2.pub-topic-heading {
+  color: #e6c97a;
+  border-bottom-color: #e6c97a;
 }
 
 // ── Topic TOC (table of contents) ─────────────────────────────────────────

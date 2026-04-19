@@ -154,15 +154,7 @@
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif entry.type == 'incollection' %}
-      {% capture entrytype %}
-        <em>In {{ entry.booktitle }}</em>
-        {% if entry.editor %}
-          , edited by {{ entry.editor }}
-        {% endif %}
-        {% if entry.publisher %}
-          , {{ entry.publisher }}
-        {% endif %}
-      {% endcapture %}
+      {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% if entry.editor %}, edited by {{ entry.editor }}{% endif %}{% if entry.publisher %}, {{ entry.publisher }}{% endif %}{% endcapture %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
@@ -193,9 +185,11 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
-    <div class="periodical">
+    {% if entry.note %}
+    <div class="bib-note">
       {{ entry.note | strip }}
     </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">

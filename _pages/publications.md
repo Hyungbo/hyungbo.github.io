@@ -34,68 +34,64 @@ nav_order: 2
 
 <h2 id="topic-A" class="pub-topic-heading">[A] Disturbance Observer</h2>
 <div class="topic-section">
-{% bibliography --query @*[keywords=Disturbance Observer] --sort_by year --order descending %}
+{% bibliography --query @*[groups~=Disturbance Observer] --sort_by year --order descending %}
 </div>
 
-<h2 id="topic-B" class="pub-topic-heading">[B] Synchronization and Consensus</h2>
+<h2 id="topic-B" class="pub-topic-heading">[B] Multi-agent System</h2>
 <div class="topic-section">
-{% bibliography --query @*[keywords=Synchronization and Consensus] --sort_by year --order descending %}
+{% bibliography --query @*[groups~=Multi-agent System] --sort_by year --order descending %}
 </div>
 
-<h2 id="topic-C" class="pub-topic-heading">[C] Switched Systems and Estimation Problems</h2>
+<h2 id="topic-C" class="pub-topic-heading">[C] Nonlinear Observer</h2>
 <div class="topic-section">
-{% bibliography --query @*[keywords=Switched Systems and Estimation Problems] --sort_by year --order descending %}
+{% bibliography --query @*[groups~=Nonlinear Observer] --sort_by year --order descending %}
 </div>
 
-<h2 id="topic-D" class="pub-topic-heading">[D] Nonlinear Observer</h2>
+<h2 id="topic-D" class="pub-topic-heading">[D] Output Feedback Stabilization</h2>
 <div class="topic-section">
-{% bibliography --query @*[keywords=Nonlinear Observer] --sort_by year --order descending %}
+{% bibliography --query @*[groups~=Output Feedback Stabilization] --sort_by year --order descending %}
 </div>
 
-<h2 id="topic-E" class="pub-topic-heading">[E] Output Feedback Stabilization</h2>
+<h2 id="topic-E" class="pub-topic-heading">[E] Stability Analysis</h2>
 <div class="topic-section">
-{% bibliography --query @*[keywords=Output Feedback Stabilization] --sort_by year --order descending %}
+{% bibliography --query @*[groups~=Stability Analysis] --sort_by year --order descending %}
 </div>
 
-<h2 id="topic-F" class="pub-topic-heading">[F] Stability Analysis</h2>
+<h2 id="topic-F" class="pub-topic-heading">[F] Control Method</h2>
 <div class="topic-section">
-{% bibliography --query @*[keywords=Stability Analysis] --sort_by year --order descending %}
+{% bibliography --query @*[groups~=Control Method] --sort_by year --order descending %}
 </div>
 
-<h2 id="topic-G" class="pub-topic-heading">[G] Biological Dynamics and Control</h2>
+<h2 id="topic-G" class="pub-topic-heading">[G] Security of Control System</h2>
 <div class="topic-section">
-{% bibliography --query @*[keywords=Biological Dynamics and Control] --sort_by year --order descending %}
+{% bibliography --query @*[groups~=Security of Control System] --sort_by year --order descending %}
 </div>
 
-<h2 id="topic-H" class="pub-topic-heading">[H] Parallel Feedforward Compensator</h2>
+<h2 id="topic-H" class="pub-topic-heading">[H] Switched/Hybrid System</h2>
 <div class="topic-section">
-{% bibliography --query @*[keywords=Parallel Feedforward Compensator] --sort_by year --order descending %}
+{% bibliography --query @*[groups~=Switched/Hybrid System] --sort_by year --order descending %}
 </div>
 
-<h2 id="topic-I" class="pub-topic-heading">[I] Control Methodologies</h2>
+<h2 id="topic-I" class="pub-topic-heading">[I] Parallel Feedforward Compensator</h2>
 <div class="topic-section">
-{% bibliography --query @*[keywords=Control Methodologies] --sort_by year --order descending %}
+{% bibliography --query @*[groups~=Parallel Feedforward Compensator] --sort_by year --order descending %}
 </div>
 
-<h2 id="topic-J" class="pub-topic-heading">[J] Security of Control System</h2>
+<h2 id="topic-J" class="pub-topic-heading">[J] Biological Dynamics and Control</h2>
 <div class="topic-section">
-{% bibliography --query @*[keywords=Security of Control System] --sort_by year --order descending %}
+{% bibliography --query @*[groups~=Biological Dynamics and Control] --sort_by year --order descending %}
 </div>
 
-<h2 id="topic-K" class="pub-topic-heading">[K] Control of Hybrid System</h2>
+<h2 id="topic-K" class="pub-topic-heading">[K] Data-Driven/Learning</h2>
 <div class="topic-section">
-{% bibliography --query @*[keywords=Control of Hybrid System] --sort_by year --order descending %}
+{% bibliography --query @*[groups~=Data-Driven/Learning] --sort_by year --order descending %}
 </div>
 
-<h2 id="topic-L" class="pub-topic-heading">[L] Data-driven Control</h2>
+<h2 id="topic-L" class="pub-topic-heading">[L] Others</h2>
 <div class="topic-section">
-{% bibliography --query @*[keywords=Data-driven Control] --sort_by year --order descending %}
+{% bibliography --query @*[groups~=Others] --sort_by year --order descending %}
 </div>
 
-<h2 id="topic-O" class="pub-topic-heading">[O] Other</h2>
-<div class="topic-section">
-{% bibliography --query @*[keywords=Other] --sort_by year --order descending %}
-</div>
 
 </div><!-- /pub-view-topic -->
 
