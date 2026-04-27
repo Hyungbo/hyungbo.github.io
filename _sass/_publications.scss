@@ -172,6 +172,14 @@
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
+
+      div.mycomment.hidden {
+        border: dashed 1px var(--global-bg-color);
+      }
+
+      div.mycomment.hidden.open {
+        border-color: var(--global-theme-color);
+      }
     }
     div.award.hidden {
       border: dashed 1px var(--global-bg-color);

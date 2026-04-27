@@ -936,24 +936,24 @@
 }
 
 @Article{Kim2023Method,
-  abbr            = {journal},
-  author          = {Jeong Woo Kim and Jin Gyu Lee and Donggil Lee and Hyungbo Shim},
-  journal         = {Automatica},
-  title           = {A design method of distributed algorithms via discrete-time blended dynamics},
-  year            = {2023},
-  volume          = {159},
-  doi             = {10.1016/j.automatica.2023.111371},
-  groups          = {Multi-agent System},
-  url             = {https://doi.org/10.1016/j.automatica.2023.111371},
-  verified        = {yes},
-  verified_source = {crossref},
+  abbr     = {journal},
+  author   = {Jeong Woo Kim and Jin Gyu Lee and Donggil Lee and Hyungbo Shim},
+  journal  = {Automatica},
+  title    = {A design method of distributed algorithms via discrete-time blended dynamics},
+  year     = {2024},
+  selected = {true},
+  volume   = {159},
+  abstract = {We develop a discrete-time version of the blended dynamics theorem for the use of designing distributed computation algorithms. The blended dynamics theorem enables to predict the behavior of heterogeneous multi-agent systems. Therefore, once we get a blended dynamics for a particular computational task, design idea of node dynamics for individual heterogeneous agents can easily occur. In the continuous-time case, prediction by blended dynamics was enabled by high coupling gain among neighboring agents. In the discrete-time case, we propose an equivalent action, which we call multi-step coupling in this paper. Compared to the continuous-time case, the blended dynamics can have more variety depending on the coupling matrix. This benefit is demonstrated with three applications; distributed estimation of network size, distributed computation of the PageRank, and distributed computation of the degree sequence of a graph, which correspond to the coupling by doubly-stochastic, column-stochastic, and row-stochastic matrices, respectively.},
+  doi      = {10.1016/j.automatica.2023.111371},
+  groups   = {Multi-agent System},
+  verified = {done},
 }
 
 @Article{Kim2024Asymptot,
   abbr            = {journal},
   author          = {Namguk Kim and Hyungbo Shim},
   journal         = {International Journal of Robust and Nonlinear Control},
-  title           = {Asymptotic output tracking in a class of non‐minimum phase nonlinear systems via learning‐based inversion},
+  title           = {Asymptotic output tracking in a class of non-minimum phase nonlinear systems via learning-based inversion},
   year            = {2024},
   abstract        = {Abstract Asymptotic output tracking of non‐minimum phase (NMP) nonlinear systems has been a popular topic in control theory and applications. Many approaches have focused on finding solutions under minimal assumptions either in the target system or desired trajectories, as there is no general solution available. In this article, we propose a practical and simple solution for cases where the reference trajectory is periodic in time. Our approach employs a learning‐based scheme to iteratively determine the desired feedforward input. Unlike previous learning‐based frameworks, our method only requires the output tracking error to update the feedforward input iteratively and can be applicable to NMP systems. Our method retains the key advantages of the learning‐based framework, including robustness to parameter uncertainties and periodic disturbances. We evaluate the effectiveness of our algorithm using simulation results with an inverted pendulum on a cart, a typical NMP nonlinear system.},
   doi             = {10.1002/rnc.6969},
@@ -991,13 +991,15 @@
 }
 
 @InProceedings{Koo2024Referenc,
-  author    = {S Koo, H Shim},
+  author    = {Sunghyun Koo and Hyungbo Shim},
   booktitle = {14th Asian Control Conference (ASCC)},
   title     = {Reference-Tracking Sliding-Mode Control Robust to Mismatched Exogenous Disturbances},
   year      = {2024},
   abbr      = {conference},
+  abstract  = {A dynamic state-feedback sliding-mode controller (SMC) based on the internal model principle (IMP) is proposed for the tracking of exogenous signals. The proposed SMC is robust to both matched disturbances and mismatched exogenous disturbances. It also achieves robustness to matched parametric uncertainties and a certain degree of mismatched parametric uncertainties. The stability of the closed-loop system and the existence of a global solution are theoretically guaranteed by a specific initialization of the internal model. Its performance is demonstrated through numerical simulations.},
   groups    = {Control Method},
-  verified  = {not_found},
+  url       = {https://ieeexplore.ieee.org/abstract/document/10665455},
+  verified  = {done},
 }
 
 @Article{Kumari2019Output,
@@ -2317,6 +2319,7 @@
   publisher    = {IEEE},
   abbr         = {conference},
   abstract     = {In this paper, we present a novel method for solving a class of quadratically constrained quadratic optimization problems using only additions and multiplications. This approach enables solving constrained optimization problems on private data since the operations involved are compatible with the capabilities of homomorphic encryption schemes. To solve the constrained optimization problem, a sequence of polynomial penalty functions of increasing degree is introduced, which are sufficiently steep at the boundary of the feasible set. Adding the penalty function to the original cost function creates a sequence of unconstrained optimization problems whose minimizer always lies in the admissible set and converges to the minimizer of the constrained problem. A gradient descent method is used to generate a sequence of iterates associated with these problems. For the algorithm, it is shown that the iterate converges to a minimizer of the original problem, and the feasible set is positively invariant under the iteration. Finally, the method is demonstrated on an illustrative cryptographic problem, finding the smaller value of two numbers, and the encrypted implementability is discussed.},
+  comment      = {This is a test.},
   doi          = {10.1109/CDC57313.2025.11312321},
   groups       = {Security of Control System},
   verified     = {done},
@@ -2418,6 +2421,83 @@
   verified_source = {crossref},
 }
 
+@Article{Song_2026,
+  abbr     = {journal},
+  author   = {Song, Donghyeon and Kim, Hyuntae and Shim, Hyungbo},
+  journal  = {International Journal of Control, Automation, and Systems},
+  title    = {Low-Power Disturbance Observer for Linear Systems of High Relative Degree with Robust Stability Condition},
+  year     = {2026},
+  issn     = {2005-4092},
+  month    = Apr,
+  abstract = {The disturbance observer (DOB)-based control is a powerful robust control technique characterized by external disturbance rejection and nominal performance recovery. However, the conventional DOB encounters numerical challenges in implementation when the plant has a high relative degree. This is due to its high-gain observer structure inside which requires gains that scale with the reciprocal of the time constant, and the gain is further powered up to the relative degree, leading to a potential numerical instability. To address this issue, we propose a modified DOB whose gains are limited to at most the second order of the high-gain parameter, regardless of how large the relative degree is. The key idea is replacing the original high-gain observer with the so-called ‘low-power” high-gain observer. The proposed “low-power” DOB not only preserves the original capability of DOB that allows the outer-loop controller to be designed without consideration about robustness, but also provides estimated state of the plant for the outer-loop controller without numerical issues. A robust stability condition is analyzed via singular perturbation theory, and a systematic design methodology for the design coefficients is developed based on Kharitonov theorem and root locus techniques. The numerical simulation results are provided to validate the theoretical results.},
+  doi      = {10.1007/s12555-026-00072-z},
+  groups   = {Disturbance Observer},
+  verified = {done},
+}
+
+@InProceedings{Chang2024Disturbance,
+  author    = {Chang, Hamin and Song, Donghyeon and Trenn, Stephan and Shim, Hyungbo},
+  booktitle = {IEEE 63rd Conference on Decision and Control (CDC)},
+  title     = {Disturbance Observer with Switched Output Redefinition for Robust Stabilization of Non-Minimum Phase Linear Systems},
+  year      = {2024},
+  pages     = {8132--8137},
+  abbr      = {conference},
+  abstract  = {Q-filter-based disturbance observer (DOB) has emerged as a powerful robust control technique renowned for its effectiveness in mitigating disturbances and addressing plant uncertainties. Despite its advantage, a key limitation of the Q-filter-based DOB lies in its requirement for plants to be of minimum phase. In this paper, we introduce an approach allowing the utilization of the Q-filter-based DOB as a stabilizing controller for non-minimum phase linear systems based on switched output redefinition of the systems. By redefining the output of systems to be controlled periodically, the approach stabilizes unstable internal dynamics of the systems as well as the original output. The proposed method is verified by an illustrative example.},
+  doi       = {10.1109/CDC56724.2024.10886144},
+  verified  = {done},
+}
+
+@InProceedings{Lee2024Authentication,
+  author    = {Lee, Seungbeom and Kim, Dongwoo and Chung, Heewon and Kim, Junsoo and Shim, Hyungbo},
+  booktitle = {IEEE 63rd Conference on Decision and Control (CDC)},
+  title     = {Authentication of Multi-agent System with Verifiable Computation and Distributed Aggregation},
+  year      = {2024},
+  pages     = {4595--4601},
+  abbr      = {conference},
+  abstract  = {We propose an authentication scheme for a multiagent system over integers, based on verifiable computation primitives. The naive approach, employing Freivalds’ algorithm in centralized way, faces several challenges. Specifically, unreliability of the network introduces the risk of information tampering by other agents. To this end, it requires locally updating and merging the proofs of the individual states in a distributed manner. Our proposed method addresses these issues with assuming presence of a leader agent who is responsible for validating the correctness of all the states of the agents. This can be achieved by a distributed protocol that aggregates proofs from the individual agents, relying on the well-known knowledge-of-exponent assumption. By using this distributed protocol, computational complexity and communication cost are reduced compared to centralized verification. Furthermore, we incorporate a clustering technique to distribute storage requirements.},
+  doi       = {10.1109/CDC56724.2024.10886336},
+  verified  = {done},
+}
+
+@InProceedings{Huang2024New,
+  author    = {Huang, Chao and Shim, Hyungbo and Yu, Siliang and Anderson, Brian DO},
+  booktitle = {IEEE 63rd Conference on Decision and Control (CDC)},
+  title     = {New Results on Finite Convergence Time Mode Consensus: a Summary},
+  year      = {2024},
+  pages     = {6155--6160},
+  abbr      = {conference},
+  abstract  = {This paper studies the distributed mode consensus problem in a multi-agent system. Three algorithms are proposed to find the most frequent attribute (the mode) owned by the agents via distributed computation. The first algorithm computes the frequency of each attribute using consensus protocols rooted in blended dynamics, then identifies the most frequent attribute as the mode. The second algorithm, under the assumption that each agent possesses a priori knowledge of a minimum frequency for the mode, can decrease the frequency computations required at each agent for large lower bounds. In contrast, the third algorithm eliminates the necessity for such information by implementing an adaptive updating mechanism. These algorithms successfully determine the mode within a finite time frame, and predictive estimates for convergence time are included. Moreover, the first and second algorithms demonstrate plug-and-play property with a dwell time.},
+  doi       = {10.1109/CDC56724.2024.10886526},
+  verified  = {done},
+}
+
+@InProceedings{Heo2024Fully,
+  author    = {Heo, Jinwook and Hyeon, Soojeong and Shim, Hyungbo and Kim, Jinsung},
+  booktitle = {IEEE 63rd Conference on Decision and Control (CDC)},
+  title     = {Fully Distributed EV Charging Scheduling for Load Flattening in V2G Systems},
+  year      = {2024},
+  pages     = {3259--3265},
+  abbr      = {conference},
+  abstract  = {This paper presents a fully distributed algorithm for scheduling electric vehicle (EV) charging and discharging to flatten the total load of the grid, while considering constraints on grid transmission capacity. As a fully distributed solution, the proposed algorithm operates without the need for a central unit. Instead, each agent only communicates a single dual variable with its neighboring agents based on a communication graph, and thus no private information is shared. In particular, the algorithm does not rely on initial conditions, ensuring robustness in online changes of operational conditions. Simulation results verify the effectiveness of the proposed algorithm.},
+  doi       = {10.1109/CDC56724.2024.10886202},
+  verified  = {done},
+}
+
+@Article{Shim2024How,
+  abbr      = {journal},
+  author    = {Shim, Hyungbo},
+  journal   = {제어로봇시스템학회 논문지},
+  title     = {군집은 어떻게 동기화를 통해 창발성을 발현하는가?},
+  year      = {2024},
+  issn      = {2233-4335},
+  month     = Apr,
+  number    = {4},
+  pages     = {352--362},
+  volume    = {30},
+  doi       = {10.5302/J.ICROS.2024.24.0039},
+  publisher = {Institute of Control, Robotics and Systems},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:
@@ -2428,10 +2508,10 @@
 1 StaticGroup:Data-Driven/Learning\;0\;0\;0x60bfa4ff\;DATABASE_ARROW_DOWN_OUTLINE\;\;;
 1 StaticGroup:Disturbance Observer\;0\;1\;0xbf606dff\;DO_NOT_DISTURB_OFF\;\;;
 1 StaticGroup:Nonlinear Observer\;0\;1\;0x60bfb2ff\;LOOKS\;\;;
-1 StaticGroup:Output Feedback Stabilization\;0\;1\;0xbf6093ff\;\;\;;
-1 StaticGroup:Parallel Feedforward Compensator\;0\;0\;0x60bf8cff\;\;\;;
+1 StaticGroup:Output Feedback Stabilization\;0\;1\;0xbf6093ff\;MDI_CLOCK_OUT\;\;;
+1 StaticGroup:Parallel Feedforward Compensator\;0\;1\;0x60bf8cff\;VIEW_PARALLEL_OUTLINE\;\;;
 1 StaticGroup:Security of Control System\;0\;1\;0x80b380ff\;MDI_SECURITY\;\;;
-1 StaticGroup:Stability Analysis\;0\;1\;0x60bf9aff\;\;\;;
+1 StaticGroup:Stability Analysis\;0\;1\;0x60bf9aff\;VIDEO_STABILIZATION\;\;;
 1 StaticGroup:Multi-agent System\;0\;1\;0xbf60a7ff\;MDI_SERVER_NETWORK\;\;;
 1 StaticGroup:Others\;0\;1\;0x60bf78ff\;BORDER_NONE_VARIANT\;\;;
 }

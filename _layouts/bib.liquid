@@ -262,6 +262,9 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
+      {% if entry.comment %}
+        <a class="mycomment btn btn-sm z-depth-0" role="button">My Comment</a>
+      {% endif %}
     </div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
@@ -362,6 +365,13 @@
       <!-- Hidden abstract block -->
       <div class="abstract hidden">
         <p>{{ entry.abstract }}</p>
+      </div>
+    {% endif %}
+
+    {% if entry.comment %}
+      <!-- Hidden comment block -->
+      <div class="mycomment hidden">
+        <p>{{ entry.comment }}</p>
       </div>
     {% endif %}
 
