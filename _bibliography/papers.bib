@@ -2444,6 +2444,7 @@
   abbr      = {conference},
   abstract  = {Q-filter-based disturbance observer (DOB) has emerged as a powerful robust control technique renowned for its effectiveness in mitigating disturbances and addressing plant uncertainties. Despite its advantage, a key limitation of the Q-filter-based DOB lies in its requirement for plants to be of minimum phase. In this paper, we introduce an approach allowing the utilization of the Q-filter-based DOB as a stabilizing controller for non-minimum phase linear systems based on switched output redefinition of the systems. By redefining the output of systems to be controlled periodically, the approach stabilizes unstable internal dynamics of the systems as well as the original output. The proposed method is verified by an illustrative example.},
   doi       = {10.1109/CDC56724.2024.10886144},
+  groups    = {Disturbance Observer},
   verified  = {done},
 }
 
@@ -2456,6 +2457,7 @@
   abbr      = {conference},
   abstract  = {We propose an authentication scheme for a multiagent system over integers, based on verifiable computation primitives. The naive approach, employing Freivalds’ algorithm in centralized way, faces several challenges. Specifically, unreliability of the network introduces the risk of information tampering by other agents. To this end, it requires locally updating and merging the proofs of the individual states in a distributed manner. Our proposed method addresses these issues with assuming presence of a leader agent who is responsible for validating the correctness of all the states of the agents. This can be achieved by a distributed protocol that aggregates proofs from the individual agents, relying on the well-known knowledge-of-exponent assumption. By using this distributed protocol, computational complexity and communication cost are reduced compared to centralized verification. Furthermore, we incorporate a clustering technique to distribute storage requirements.},
   doi       = {10.1109/CDC56724.2024.10886336},
+  groups    = {Security of Control System},
   verified  = {done},
 }
 
@@ -2468,6 +2470,7 @@
   abbr      = {conference},
   abstract  = {This paper studies the distributed mode consensus problem in a multi-agent system. Three algorithms are proposed to find the most frequent attribute (the mode) owned by the agents via distributed computation. The first algorithm computes the frequency of each attribute using consensus protocols rooted in blended dynamics, then identifies the most frequent attribute as the mode. The second algorithm, under the assumption that each agent possesses a priori knowledge of a minimum frequency for the mode, can decrease the frequency computations required at each agent for large lower bounds. In contrast, the third algorithm eliminates the necessity for such information by implementing an adaptive updating mechanism. These algorithms successfully determine the mode within a finite time frame, and predictive estimates for convergence time are included. Moreover, the first and second algorithms demonstrate plug-and-play property with a dwell time.},
   doi       = {10.1109/CDC56724.2024.10886526},
+  groups    = {Multi-agent System},
   verified  = {done},
 }
 
@@ -2480,11 +2483,11 @@
   abbr      = {conference},
   abstract  = {This paper presents a fully distributed algorithm for scheduling electric vehicle (EV) charging and discharging to flatten the total load of the grid, while considering constraints on grid transmission capacity. As a fully distributed solution, the proposed algorithm operates without the need for a central unit. Instead, each agent only communicates a single dual variable with its neighboring agents based on a communication graph, and thus no private information is shared. In particular, the algorithm does not rely on initial conditions, ensuring robustness in online changes of operational conditions. Simulation results verify the effectiveness of the proposed algorithm.},
   doi       = {10.1109/CDC56724.2024.10886202},
+  groups    = {Multi-agent System},
   verified  = {done},
 }
 
 @Article{Shim2024How,
-  abbr      = {journal},
   author    = {Shim, Hyungbo},
   journal   = {제어로봇시스템학회 논문지},
   title     = {군집은 어떻게 동기화를 통해 창발성을 발현하는가?},
@@ -2494,7 +2497,9 @@
   number    = {4},
   pages     = {352--362},
   volume    = {30},
+  abbr      = {journal},
   doi       = {10.5302/J.ICROS.2024.24.0039},
+  groups    = {Multi-agent System},
   publisher = {Institute of Control, Robotics and Systems},
 }
 
@@ -2512,6 +2517,6 @@
 1 StaticGroup:Parallel Feedforward Compensator\;0\;1\;0x60bf8cff\;VIEW_PARALLEL_OUTLINE\;\;;
 1 StaticGroup:Security of Control System\;0\;1\;0x80b380ff\;MDI_SECURITY\;\;;
 1 StaticGroup:Stability Analysis\;0\;1\;0x60bf9aff\;VIDEO_STABILIZATION\;\;;
-1 StaticGroup:Multi-agent System\;0\;1\;0xbf60a7ff\;MDI_SERVER_NETWORK\;\;;
+1 StaticGroup:Multi-agent System\;0\;0\;0xbf60a7ff\;MDI_SERVER_NETWORK\;\;;
 1 StaticGroup:Others\;0\;1\;0x60bf78ff\;BORDER_NONE_VARIANT\;\;;
 }
