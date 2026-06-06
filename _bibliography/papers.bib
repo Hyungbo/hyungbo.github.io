@@ -644,16 +644,17 @@
 }
 
 @Article{Kim2018State,
-  abbr            = {journal},
-  author          = {Kim, Jisu and Shim, Hyungbo and Seo, Jin Heon},
-  journal         = {IEEE Transactions on Automatic Control},
-  title           = {State Estimation and Tracking Control for Hybrid Systems by Gluing the Domains},
-  year            = {2018},
-  number          = {7},
-  pages           = {3026--3033},
-  volume          = {64},
-  doi             = {10.1109/TAC.2018.2876784},
-  groups          = {Switched/Hybrid System},
+  author  = {Kim, Jisu and Shim, Hyungbo and Seo, Jin Heon},
+  journal = {IEEE Transactions on Automatic Control},
+  title   = {State Estimation and Tracking Control for Hybrid Systems by Gluing the Domains},
+  year    = {2019},
+  number  = {7},
+  pages   = {3026--3033},
+  volume  = {64},
+  abbr    = {journal},
+  arxiv   = {1810.04404},
+  doi     = {10.1109/TAC.2018.2876784},
+  groups  = {Switched/Hybrid System},
 }
 
 @Article{Kim2019Complete,
@@ -1479,17 +1480,18 @@
 }
 
 @Article{Shim2013Hybridty,
-  abbr            = {journal},
-  author          = {Shim, Hyungbo and Tanwani, Aneel},
-  journal         = {International Journal of Robust and Nonlinear Control},
-  title           = {Hybrid-Type Observer Design Based on a Sufficient Condition for Observability in Switched Nonlinear Systems},
-  year            = {2013},
-  number          = {6},
-  pages           = {1064--1089},
-  volume          = {24},
-  abstract        = {SUMMARY This paper presents a sufficient condition for observability of continuous‐time switched nonlinear systems that also involve state jumps. Without the assumption of observability of individual modes, the sufficient condition is based on gathering partial information from each mode so that the state is completely recovered after several switchings. Based on the sufficient condition, a hybrid‐type observer is designed, which comprises a copy of the actual plant and an error correction scheme at discrete time instants. In order to execute the proposed design, the observable component of the state at each mode needs to be estimated without transients or ‘peaking’ (caused by high‐gain observers), and this motivates us to introduce a back‐and‐forth estimation technique. Under the assumption of persistent switching, analysis shows that the estimate thus generated converges asymptotically to the actual state of the system. Simulation results validate the utility of the proposed algorithm. Copyright © 2012 John Wiley & Sons, Ltd.},
-  doi             = {10.1002/rnc.2901},
-  groups          = {Switched/Hybrid System},
+  author   = {Shim, Hyungbo and Tanwani, Aneel},
+  journal  = {International Journal of Robust and Nonlinear Control},
+  title    = {Hybrid-Type Observer Design Based on a Sufficient Condition for Observability in Switched Nonlinear Systems},
+  year     = {2014},
+  note     = {Special Issue on High-Gain Observers in Nonlinear Feedback Control},
+  number   = {6},
+  pages    = {1064--1089},
+  volume   = {24},
+  abbr     = {journal},
+  abstract = {This paper presents a sufficient condition for observability of continuous‐time switched nonlinear systems that also involve state jumps. Without the assumption of observability of individual modes, the sufficient condition is based on gathering partial information from each mode so that the state is completely recovered after several switchings. Based on the sufficient condition, a hybrid‐type observer is designed, which comprises a copy of the actual plant and an error correction scheme at discrete time instants. In order to execute the proposed design, the observable component of the state at each mode needs to be estimated without transients or ‘peaking’ (caused by high‐gain observers), and this motivates us to introduce a back‐and‐forth estimation technique. Under the assumption of persistent switching, analysis shows that the estimate thus generated converges asymptotically to the actual state of the system. Simulation results validate the utility of the proposed algorithm.},
+  doi      = {10.1002/rnc.2901},
+  groups   = {Switched/Hybrid System},
 }
 
 @Article{Shim2015Nonlinea,
@@ -1685,16 +1687,17 @@
 }
 
 @Article{Tanwani2012Observab,
-  abbr            = {journal},
-  author          = {Tanwani, Aneel and Shim, Hyungbo and Liberzon, Daniel},
-  journal         = {IEEE Transactions on Automatic Control},
-  title           = {Observability for Switched Linear Systems: Characterization and Observer Design},
-  year            = {2012},
-  number          = {4},
-  pages           = {891--904},
-  volume          = {58},
-  doi             = {10.1109/TAC.2012.2224257},
-  groups          = {Switched/Hybrid System},
+  author  = {Tanwani, Aneel and Shim, Hyungbo and Liberzon, Daniel},
+  journal = {IEEE Transactions on Automatic Control},
+  title   = {Observability for Switched Linear Systems: Characterization and Observer Design},
+  year    = {2013},
+  number  = {4},
+  pages   = {891--904},
+  volume  = {58},
+  abbr    = {journal},
+  comment = {See the erratum of this paper: Comments on “Observability of switched linear systems: Characterization and observer design," A. Tanwani, H. Shim, and D. Liberzon, IEEE Trans. on Automatic Control, vol. 60, no. 12, pp. 3396-3400, 2015},
+  doi     = {10.1109/TAC.2012.2224257},
+  groups  = {Switched/Hybrid System},
 }
 
 @Article{Tanwani2015Comments,
@@ -1710,12 +1713,14 @@
   groups          = {Switched/Hybrid System},
 }
 
-@Article{Tanwani2015Observer,
-  abbr            = {journal},
+@InCollection{Tanwani2015Observer,
+  abbr            = {book chapter},
   author          = {Tanwani, Aneel and Shim, Hyungbo and Liberzon, Daniel},
-  journal         = {Hybrid Dynamical Systems: Observation and Control},
+  booktitle       = {Hybrid Dynamical Systems. Lecture Notes in Control and Information Sciences},
   title           = {Observer Design for Switched Linear Systems with State Jumps},
   year            = {2015},
+  editor   = {Djemai, M. and Defoort, M.},
+  publisher = {Springer},
   volume          = {457},
   doi             = {10.1007/978-3-319-10795-0_7},
   groups          = {Switched/Hybrid System},
@@ -2688,6 +2693,54 @@ they have non-integer state matrices.},
   abbr      = {conference},
   groups    = {Multi-agent System},
 }
+
+@InProceedings{Shim2011Sufficie,
+  author    = {Shim, Hyungbo and Tanwani, Aneel},
+  booktitle = {American Control Conference (ACC)},
+  title     = {On a Sufficient Condition for Observability of Nonlinear Switched Systems and Observer Design Strategy},
+  year      = {2011},
+  pages     = {1206--1211},
+  abbr      = {conference},
+  doi       = {10.1109/ACC.2011.5991277},
+  groups    = {Switched/Hybrid System},
+  note = {best presentation of the session},
+  slides = {11.acc11_nonsw.pdf},
+}
+
+@InProceedings{Tanwani2011Observab,
+  author    = {Tanwani, Aneel and Shim, Hyungbo and Liberzon, Daniel},
+  booktitle = {ACM International Conference on Hybrid Systems: Computation and Control (HSCC)},
+  title     = {Observability Implies Observer Design for Switched Linear Systems},
+  year      = {2011},
+  pages     = {3--12},
+  abbr      = {conference},
+  doi       = {10.1145/1967701.1967705},
+  groups    = {Switched/Hybrid System},
+  pdf = {11.hscc_swobs_erratum.pdf},
+}
+
+@InProceedings{Kim2005Switchin,
+  author    = {Kim, Jung-Su and Yoon, T.W. and Shim, Hyungbo},
+  booktitle = {IEEE Conference on Decision and Control (CDC)},
+  title     = {Switching Adaptive Output Feedback {MPC} for Input-Constrained Neutrally Stable Linear Plants},
+  year      = {2005},
+  pages     = {777--782},
+  abbr      = {conference},
+  doi       = {10.1109/CDC.2005.1582251},
+  groups    = {Switched/Hybrid System},
+}
+
+@InProceedings{Shim1998Common,
+  author    = {Shim, Hyungbo and Noh, D.J. and Seo, Jin Heon},
+  booktitle = {SIAM Conference on Control and Its Applications},
+  title     = {Common {L}yapunov Function for Exponentially Stable Nonlinear Systems},
+  year      = {1998},
+  abbr      = {conference},
+  groups    = {Switched/Hybrid System}, 
+  note = {best paper award of the poster session, extended version has been published in Journal of Korean Institute of Electrical Engineers (English journal of KIEE), vol. 11, no. 2, pp. 108-111, 2001},
+  pdf = {98.commonlf.pdf},
+}
+
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
