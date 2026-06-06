@@ -210,9 +210,9 @@ scholar:
 
 # 논문 카드에 표시할 배지 (altmetric: 언론 반응, dimensions: 인용수 등)
 enable_publication_badges:
-  altmetric: true
-  dimensions: true
-  google_scholar: true
+  altmetric: false
+  dimensions: false
+  google_scholar: false
   inspirehep: false
 
 # BibTeX 항목 중 논문 카드에 버튼/링크로 표시할 커스텀 키워드 목록
