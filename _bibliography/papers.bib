@@ -2054,7 +2054,7 @@
 @InProceedings{Heo2024Fully,
   author    = {Heo, Jinwook and Hyeon, Soojeong and Shim, Hyungbo and Kim, Jinsung},
   booktitle = {IEEE Conference on Decision and Control (CDC)},
-  title     = {Fully Distributed Ev Charging Scheduling for Load Flattening in V2g Systems},
+  title     = {Fully Distributed {EV} Charging Scheduling for Load Flattening in {V2G} Systems},
   year      = {2024},
   pages     = {3259--3265},
   abbr      = {conference},
@@ -2865,6 +2865,117 @@ they have non-integer state matrices.},
   doi       = {10.1016/j.ifacol.2016.10.392},
   groups    = {Security of Control System},
 }
+
+@InProceedings{Lee2023Conversi,
+  author    = {Lee, Joowon and Lee, Donggil and Lee, Seungbeom and Kim, Junsoo and Shim, Hyungbo},
+  booktitle = {IEEE Conference on Decision and Control (CDC)},
+  title     = {Conversion of Controllers to Have Integer State Matrix for Encrypted Control: Non-Minimal Order Approach},
+  year      = {2023},
+  pages     = {5091--5096},
+  abbr      = {conference},
+  abstract  = {To implement an encrypted dynamic controller based on homomorphic encryption that operates for an infinite time horizon, it is essential for every component of the controller's state matrix to be an integer. In this paper, we tackle the challenge of converting a pre-designed controller into a new one with an integer state matrix while preserving its control performance in the closed-loop system. This enables encrypted dynamic systems to be realized without re-encryption and approximation of control parameters, compared to the previous results. To achieve this, we propose two approaches and provide sufficient conditions on the design parameter for each. The first approach is to design the new controller as an estimator of the original closed-loop system, and the conditions on the estimator gain are derived. Our second approach is to formulate a problem of finding certain polynomials, whose solution leads to the design of the new controller. In a special case when the numerator of the plant transfer function is a constant, we provide a constructive method to obtain such solution.},
+  doi       = {10.1109/CDC49753.2023.10383200},
+  groups    = {Security of Control System},
+}
+
+@Article{Lee2023Distribu,
+  author   = {Lee, Donggil and Kim, Junsoo and Shim, Hyungbo},
+  journal  = {IEEE Control Systems Letters},
+  title    = {Distributed Resilient Observer: Blended Dynamics Theory Meets {L1}-Minimization Approach},
+  year     = {2023},
+  pages    = {2083--2088},
+  volume   = {7},
+  abbr     = {journal},
+  abstract = {This letter presents a distributed resilient observer for continuous-time linear time-invariant plants that remains functional even under sensor attacks. The proposed method aims to determine the estimation outcome that matches the majority of sensor measurements, which is formulated as an l1-minimization problem considering all the observable components of each sensor measurement. A distributed observer based on the blended dynamics theory is then proposed to solve the l1-minimization problem in a distributed manner. As a result, the distributed resilient estimation is enabled for a broader class of systems compared to previous works. The design procedure is constructive with parameters obtained from a specified condition that is equivalent to the well-known null-space property.},
+  doi      = {10.1109/LCSYS.2023.3284592},
+  groups   = {Multi-agent System},
+}
+
+@InProceedings{Lee2023Userfrie,
+  author    = {Lee, Seungbeom and Heo, Jinwook and Hyeon, Soojeong and Nam, Jiyeon and Shim, Hyungbo and Kim, Jinsung},
+  booktitle = {International Conference on Control, Automation and Systems (ICCAS)},
+  title     = {User-Friendly Vehicle-to-Grid Optimal Scheduling Problem and Distributed Implementation for Plug-and-Play Operation},
+  year      = {2023},
+  abbr      = {conference},
+  abstract  = {In this paper, we propose an optimization method of charging scheduling algorithm based on preference of vehicle owners. To suffice various desires for vehicle charging, we design objective function of optimization problem as weighted sum of some objective function to reflect various desires. To solve the problem without aggregating weight coefficient, distributed optimization based on dynamic average consensus method is implemented. By initialization-free property of dynamic average consensus, plug-and-play operation of electric vehicle is applicable. Finally, we simulate the proposed algorithm to enlighten the meaning of weighted sum for objective function and plug-and-play scenario.},
+  doi       = {10.23919/ICCAS59377.2023.10316855},
+  groups    = {Multi-agent System},
+}
+
+@InProceedings{Seong2023Exponent,
+  author    = {Seong, Jeong Mo and Lee, Donggil and Shim, Hyungbo},
+  booktitle = {International Conference on Control, Automation and Systems (ICCAS)},
+  title     = {Exponential Synchronization of Heterogeneous Multi-Agent Systems via Linear-Signum-Type Diffusive Coupling: Blended Dynamics Approach},
+  year      = {2023},
+  abbr      = {conference},
+  abstract  = {This paper investigates the behavior of heterogeneous agents that interact through diffusive coupling, resulting in emergent blended dynamics that may not be observed in the dynamics of individual agents. In particular, we propose a linear-signum-type diffusive coupling to achieve exponential synchronization among heterogeneous agents. This finding offers a notable advantage over previous research, which primarily focused on linear-type diffusive coupling with remaining steady-state error in synchronization. We provide conditions of both linear and signum coupling strengths for achieving the exponential synchronization and analyze the associated convergence rate. Furthermore, simulation results validate the effectiveness of the proposed approach.},
+  doi       = {10.23919/ICCAS59377.2023.10316872},
+  groups    = {Multi-agent System},
+}
+
+@InProceedings{Eun2023Datadriv,
+  author    = {Eun, Yongsoon and Lee, Jaeho and Shim, Hyungbo},
+  booktitle = {American Control Conference (ACC)},
+  title     = {Data-Driven Inverse of Linear Systems and Application to Disturbance Observer},
+  year      = {2023},
+  pages     = {2806--2811},
+  abbr      = {conference},
+  abstract  = {This work develops a data-based construction of inverse dynamics for LTI systems. Specifically, the problem addressed here is to find an input sequence from the corresponding output sequence based on pre-collected input and output data. The problem can be considered as a reverse of the recent use of the behavioral approach, in which the output sequence is obtained for a given input sequence by solving an equation formed by pre-collected data. The condition under which the problem gives a solution is investigated and turns out to be L-delay invertibility of the plant and a certain degree of persistent excitation of the data input. The result is applied to form a data-driven disturbance observer. The plant dynamics augmented by the data-driven disturbance observer exhibits disturbance rejection without the model knowledge of the plant.},
+  doi       = {10.23919/ACC55779.2023.10156256},
+  groups    = {Data-Driven/Learning},
+}
+
+@InProceedings{Kim2023Modelref,
+  author    = {Kim, Hyuntae and Chang, Hamin and Shim, Hyungbo},
+  booktitle = {American Control Conference (ACC)},
+  title     = {Model Reference {G}aussian Process Regression: Data-Driven Output Feedback Controller},
+  year      = {2023},
+  pages     = {955--960},
+  abbr      = {conference},
+  abstract  = {Data-driven controls using Gaussian process regression have recently gained much attention. In such approaches, system identification by Gaussian process regression is mostly followed by model-based controller designs. However, the outcomes of Gaussian process regression are often too complicated to apply conventional control designs, which makes the numerical design such as model predictive control employed in many cases. To overcome the restriction, our idea is to perform Gaussian process regression to the inverse of the plant with the same input/output data for the conventional regression. With the inverse, one can design a model reference controller without resorting to numerical control methods. This paper considers single-input single-output (SISO) discrete-time nonlinear systems of minimum phase with relative degree one. It is highlighted that the model reference Gaussian process regression controller is designed directly from pre-collected input/output data without system identification.},
+  doi       = {10.23919/ACC55779.2023.10156428},
+  groups    = {Data-Driven/Learning},
+}
+
+@InProceedings{Kim2021Method,
+  author    = {Kim, Junsoo and Shim, Hyungbo and Sandberg, Henrik and Johansson, Karl H.},
+  booktitle = {IEEE Conference on Decision and Control (CDC)},
+  title     = {Method for Running Dynamic Systems Over Encrypted Data for Infinite Time Horizon Without Bootstrapping and Re-Encryption},
+  year      = {2021},
+  pages     = {5614--5619},
+  abbr      = {conference},
+  abstract  = {In this paper, we propose a method for dynamic systems to operate over homomorphically encrypted data for an infinite time horizon, where we do not make use of reset, re-encryption, or bootstrapping for the encrypted messages. The given system is first decomposed into the stable part and the anti-stable part. Then, the stable part is approximated to have finite impulse response, and by a novel conversion scheme, the eigenvalues of the state matrix of the anti-stable part are approximated to algebraic integers. This allows that the given system can be implemented to operate for an infinite time horizon using only addition and multiplication over encrypted data, without re-encrypting any portion of data. The performance error caused by the approximation and quantization can be made arbitrarily small, with appropriate choice of parameters.},
+  doi       = {10.1109/CDC45484.2021.9682828},
+  groups    = {Security of Control System},
+}
+
+
+@InProceedings{Nam2022Initiali,
+  author    = {Nam, Jiyeon and Heo, Jinwook and Kim, Jeong Woo and Shim, Hyungbo and Bang, Jae Sung and Kim, Jinsung},
+  booktitle = {International Conference on Control, Automation and Systems (ICCAS)},
+  title     = {Initialization-Free Algorithm for Discrete-Time Dynamic Average Consensus and Its Application to Distributed Optimization},
+  year      = {2022},
+  pages     = {424--429},
+  abbr      = {conference},
+  abstract  = {In this paper, we address the problem of dynamic average consensus in a discrete-time setting. The objective of dynamic average consensus problem is for each state of agent to track the average of reference input signals of each agent in a distributed manner. Without initialization process, the proposed algorithm renders the state of each agent converge practically to the average of time-varying reference signals with any given bound. It is a simple time-domain algorithm based on two-time scale. Finally, by applying our algorithm to an distributed optimization problem, we provide two simulation results that converge correctly when the initial conditions are perturbed and that converge within certain amount of small error when numerical errors are injected every time step.},
+  doi       = {10.23919/ICCAS55662.2022.10003797},
+  groups    = {Multi-agent System},
+}
+
+@Article{Kim2022Developm,
+  author   = {Kim, Chulhong and Park, Junghyun and Kim, Taeyup and Kim, Jee-Seong and Seong, Jeong Mo and Shim, Hyungbo and Ko, Hyoungho and Cho, Dongil Dan},
+  journal  = {Bioinspiration \& Biomimetics},
+  title    = {Development and Evaluation of Haltere-Mimicking Gyroscope for Three-Axis Angular Velocity Sensing Using a Haltere-Mimicking Structure Pair},
+  year     = {2022},
+  number   = {1},
+  pages    = {016003},
+  volume   = {18},
+  abbr     = {journal},
+  abstract = {This paper presents a three-axis biomimetic gyroscope, mimicking the haltere of Diptera. Diptera use a club-shaped mechanosensory organ called the haltere to get the three-axis angular velocity information, namely roll, pitch and yaw axes, for flight control. One pair of halteres is physically connected to the wings of Diptera that vibrate in antiphase to the flapping wings in ambient air. They sense the Coriolis force and relay angular velocity information to the Diptera. As an alternative to the conventional micro-electro-mechanical system gyroscopes which are widely used in robotics, many research groups have attempted to mimic the haltere. However, no previous study succeeded in measuring all three-axis components of angular velocity, due to various shortcomings. In this paper, we developed the first three-axis haltere-mimicking gyroscope. Two perpendicularly positioned haltere-mimicking structures that can vibrate at a 180{\textdegree} amplitude were mechanically integrated into a robot actuator. Two accelerometers, placed at the tip of each structure, were employed to measure the Coriolis force. The performance of the novel biomimetic gyroscope was measured in all rotational directions, using a motion capture system as the ground truth. One-axis input experiments were performed 240 times at different input magnitudes and directions, and the measured orientation error was less than {\textpm}2.0\% in all experiments. In 80 three-axis input experiments, the orientation error was less than {\textpm}3.5\%.},
+  doi      = {10.1088/1748-3190/ac9c7d},
+  groups   = {Control Method},
+}
+
 
 @Comment{jabref-meta: databaseType:bibtex;}
 
