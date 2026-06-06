@@ -6,7 +6,7 @@ subtitle: >
   Professor, <a href="http://ece.snu.ac.kr">Department of Electrical and Computer Engineering</a>, <br>
   Adjunct professor, <a href="http://www.math.snu.ac.kr">Department of Mathematical Sciences</a>, <br>
   PI, <a href="https://post.cdsl.kr">Control and Dynamic Systems Lab</a>, <br>
-  at Seoul National University, Korea
+  at <a href="https://www.snu.ac.kr">Seoul National University</a>, Korea
   
 profile:
   align: right
@@ -42,6 +42,8 @@ email: hshim(at)snu.ac.kr
 - Data-driven control
 
 <br>
+
+Hyungbo's arXiv list: [https://arxiv.org/a/0000-0002-5972-8114](https://arxiv.org/a/0000-0002-5972-8114)
 
 <!--
 ## And more...
