@@ -41,10 +41,6 @@ email: hshim(at)snu.ac.kr
 - Nonlinear observers and stability analysis of nonlinear systems
 - Data-driven control
 
-<br>
-
-Hyungbo's arXiv list: [https://arxiv.org/a/0000-0002-5972-8114](https://arxiv.org/a/0000-0002-5972-8114)
-
 <!--
 ## And more...
 
