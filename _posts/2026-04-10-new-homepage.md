@@ -8,5 +8,5 @@ tags: [life]
 
 ## Migration Note
 
-I am being migrated from WordPress.com after 20 years due to increased advertisements. This site will become my home soon.
+I am being migrated from WordPress.com after 20 years due to increased advertisements. This site is my home.
 
