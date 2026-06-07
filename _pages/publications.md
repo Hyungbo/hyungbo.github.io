@@ -166,9 +166,44 @@ nav_order: 2
 > doi:[10.1016/j.arcontrol.2022.10.002](https://doi.org/10.1016/j.arcontrol.2022.10.002)
 
 
-# Selected publication
+# Selected Publications
 
-{% include selected_papers.liquid %}
+## Disturbance Observer
+{% bibliography --group_by none --query @*[selected=true && groups~=Disturbance Observer]* %}
+
+## Multi-agent System
+{% bibliography --group_by none --query @*[selected=true && groups~=Multi-agent System]* %}
+
+## Nonlinear Observer
+{% bibliography --group_by none --query @*[selected=true && groups~=Nonlinear Observer]* %}
+
+## Output Feedback Stabilization
+{% bibliography --group_by none --query @*[selected=true && groups~=Output Feedback Stabilization]* %}
+
+## Stability Analysis
+{% bibliography --group_by none --query @*[selected=true && groups~=Stability Analysis]* %}
+
+## Control Method
+{% bibliography --group_by none --query @*[selected=true && groups~=Control Method]* %}
+
+## Security of Control System
+{% bibliography --group_by none --query @*[selected=true && groups~=Security of Control System]* %}
+
+## Switched/Hybrid System
+{% bibliography --group_by none --query @*[selected=true && groups~=Switched/Hybrid System]* %}
+
+## Parallel Feedforward Compensator
+{% bibliography --group_by none --query @*[selected=true && groups~=Parallel Feedforward Compensator]* %}
+
+## Biological Dynamics and Control
+{% bibliography --group_by none --query @*[selected=true && groups~=Biological Dynamics and Control]* %}
+
+
+{%- comment -%}
+  {% include selected_papers.liquid %}
+  ## Data-Driven/Learning
+  {% bibliography --group_by none --query @*[selected=true && groups~=Data-Driven/Learning]* %}
+{%- endcomment -%}
 
 
 

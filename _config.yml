@@ -31,7 +31,7 @@ max_width: 1280px      # 콘텐츠 최대 너비
 # Optional Features 섹션의 enable_google_analytics를 true로 변경.
 
 google_analytics: G-D774ZHTLL4    # 형식: G-XXXXXXXXXX
-google_site_verification: # Google Search Console 인증 코드
+google_site_verification: A44xrVMWr_wZVyUEeNjclP5qWuyj0jEibr_-ZXtuGks   # Google Search Console 인증 코드
 
 # =============================================================================
 # Social links
@@ -290,7 +290,7 @@ lazy_loading_images: true   # 이미지 지연 로딩 (페이지 속도 향상)
 # =============================================================================
 
 enable_google_analytics: true     # Google Analytics 사용 시 true로 변경
-enable_google_verification: false # Google Search Console 인증 사용 시 true
+enable_google_verification: true  # Google Search Console 인증 사용 시 true
 enable_cookie_consent: false      # GDPR 쿠키 동의 배너
 enable_masonry: true              # 블로그 카드 벽돌(masonry) 레이아웃
 enable_math: true                 # MathJax 수식 렌더링 (제어이론 연구자라면 유용)
