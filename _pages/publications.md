@@ -120,7 +120,7 @@ nav_order: 2
 
 # Tutorial style articles
 
-## Disturbance observer
+### Disturbance observer
 
 > "Disturbance Observers"  
 > H. Shim  
@@ -136,7 +136,7 @@ nav_order: 2
 > also available at arxiv:[1601.02075](http://arxiv.org/abs/1601.02075)
 
 
-## Multi-agent Systems
+### Multi-agent Systems
 
 > "Design of heterogeneous multi-agent system for distributed computation"  
 > Jin Gyu Lee, Hyungbo Shim  
@@ -144,7 +144,7 @@ nav_order: 2
 > doi:[10.1007/978-3-030-74628-5_4](https://doi.org/10.1007/978-3-030-74628-5_4)  
 > also available at arxiv:[2101.00161](https://arxiv.org/abs/2101.00161)
 
-## Security of Control Systems
+### Security of Control Systems
 
 > "Zero-dynamics Attack, Variations, and Countermeasures"  
 > Hyungbo Shim, Juhoon Back, Yongsoon Eun, Gyunghoon Park, Jihan Kim  
@@ -152,7 +152,7 @@ nav_order: 2
 > doi:[10.1007/978-3-030-83236-0_2](https://doi.org/10.1007/978-3-030-83236-0_2)  
 > also available at arxiv:[2101.00556](https://arxiv.org/abs/2101.00556)
 
-## Control based on homomorphic encryption
+### Control based on homomorphic encryption
 
 > "Comprehensive Introduction to Fully Homomorphic Encryption for Dynamic Feedback Controller via LWE-Based Cryptosystem"  
 > Junsoo Kim, Hyungbo Shim and Kyoohyung Han  

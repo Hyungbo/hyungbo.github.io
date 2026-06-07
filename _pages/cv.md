@@ -105,6 +105,8 @@ nav_order: 3
 
 - IPC co-chair of [NecSys 2018](http://fwn06.housing.rug.nl/necsys2018/)
 
+- Chair, IFAC Distinguished Lecturer Program Committee (2026 - 2029)
+
 - 대한전기학회 정보 및 제어부문회 학술 이사 (2009.1.1 - 12.31)
 
 - 국제협력이사/부회장 제어로봇시스템학회 (2016, 2024, 2025)
