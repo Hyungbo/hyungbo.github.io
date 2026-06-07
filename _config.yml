@@ -207,6 +207,8 @@ scholar:
   query: "@*"                     # 표시할 논문 쿼리 (전체)
   group_by: year                  # 연도별 그룹핑
   group_order: descending         # 최신순 정렬
+  sort_by: year                   # 그룹 내 정렬 키 (Selected 뷰처럼 group_by=none일 때 작동)
+  order: descending               # 정렬 방향 (최신 먼저)
 
 # 논문 카드에 표시할 배지 (altmetric: 언론 반응, dimensions: 인용수 등)
 enable_publication_badges:
