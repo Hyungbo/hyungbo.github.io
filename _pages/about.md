@@ -6,6 +6,7 @@ subtitle: >
   Professor, <a href="http://ece.snu.ac.kr">Department of Electrical and Computer Engineering</a>, <br>
   Adjunct professor, <a href="http://www.math.snu.ac.kr">Department of Mathematical Sciences</a>, <br>
   PI, <a href="https://post.cdsl.kr">Control and Dynamic Systems Lab</a>, <br>
+  Director, Engineering Research Center for Trustworthy Distributed Physical Systems, <br>
   at <a href="https://www.snu.ac.kr">Seoul National University</a>, Korea
   
 profile:
@@ -24,8 +25,7 @@ latest_posts:
   enabled: false
 ---
 
-Hyungbo Shim received his B.S., M.S., and Ph.D. degrees from Seoul National University, Korea, and held a postdoctoral appointment at the University of California, Santa Barbara. He joined Hanyang University in Seoul in 2002 and moved to the Department of Electrical and Computer Engineering at Seoul National University in 2003, where he is currently a professor. His research interests include stability analysis of nonlinear systems, observer design, robust control via disturbance observers, control system security, and multi-agent systems.
-He has served the control community in various editorial roles, including as an Associate Editor for *Automatica*, *IEEE Transactions on Automatic Control*, and *International Journal of Robust and Nonlinear Control*. He has also contributed to many international conferences as a member of program or organizing committees. He was a member of the Board of Governors of the IEEE Control Systems Society in 2024, and an IFAC Distinguished Lecturer from 2023 to 2026. He is a Fellow of IEEE and a member of the Korean Academy of Science and Technology.
+Hyungbo Shim received his B.S., M.S., and Ph.D. degrees from Seoul National University, Korea, and subsequently held a postdoctoral appointment at the University of California, Santa Barbara. He joined Hanyang University in Seoul in 2002 and moved to the Department of Electrical and Computer Engineering at Seoul National University in 2003, where he is currently a professor and the director of the Engineering Research Center for Trustworthy Distributed Physical Systems. His research interests include stability analysis of nonlinear systems, observer design, robust control via disturbance observers, control system security, and multi-agent systems. He has served the control community in various editorial roles, including as an Associate Editor for *Automatica*, *IEEE Transactions on Automatic Control*, and *International Journal of Robust and Nonlinear Control*. He has also contributed to many international conferences as a member of program or organizing committees. He was a member of the Board of Governors of the IEEE Control Systems Society in 2024, and an IFAC Distinguished Lecturer from 2023 to 2026. He is a Fellow of IEEE and a member of the Korean Academy of Science and Technology.
 
 email: hshim(at)snu.ac.kr
 
